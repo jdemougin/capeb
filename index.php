@@ -1,3 +1,3 @@
 <?php 
-echo ('<h1>Hello World la mifffff</h1>')
+echo ('<h1>Hello pas world</h1>')
 ?>
