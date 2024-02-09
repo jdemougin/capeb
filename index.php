@@ -1,3 +1,3 @@
 <?php 
-echo ('<h1>BRAVO BRAVISSIMMOOOOOOOO !!!!!!!</h1>')
+echo ('<h1>Ca remarche</h1>')
 ?>
