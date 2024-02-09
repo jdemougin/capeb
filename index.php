@@ -1,3 +1,3 @@
 <?php 
-echo ('<h1>Ca remadche pas dzaadedfefzefzefaaaa</h1>')
+echo ('<h1>PROJET CAPEEEEEEB</h1>')
 ?>
