@@ -1,3 +1,3 @@
 <?php 
-echo ('<h1>PROJET CAPEEEEEEB</h1>')
+echo ('<h1>PROJET CAPEB</h1>')
 ?>
