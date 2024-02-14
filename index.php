@@ -10,6 +10,8 @@ echo ('<h3>PROJET CAPEB</h3>');
 echo ('<h4>PROJET CAPEB</h4>');
 echo ('<h5>MERGE MERGE MERGE</h5>');
 
+echo '<div class="test"></div>';
+
 
         echo the_content();
     ?>
