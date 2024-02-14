@@ -11,6 +11,7 @@ echo ('<h4>PROJET CAPEB</h4>');
 echo ('<h5>MERGE MERGE MERGE</h5>');
 
 
-?>
-
+        echo the_content();
+    ?>
+</div>
 <?php get_footer();?>
