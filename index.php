@@ -3,7 +3,7 @@
 <?php 
 echo ('<h1>PROJET CAPEB</h1>')
 ?>
-<div>
+<div class="main">
     <?php 
         echo ('<h2>PROJET CAPEB</h2>');
         echo ('<h3>PROJET CAPEB</h3>');
