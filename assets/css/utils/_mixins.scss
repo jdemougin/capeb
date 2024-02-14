@@ -1,0 +1,24 @@
+// Mixin qui permet de rendre la taille de typographie fluide
+@mixin fluid-type($size) {
+  $min-vw: $mobile; // taille minimum d'écran
+  $max-vw: $desktop; // taille maximum d'écran
+  $min-font-size: map-get($size, min); // Taille minimum de police
+  $max-font-size: map-get($size, max); // Taille maximum de police
+
+  // Calcul du "scaler" :
+  // calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));
+  $scaler: calc(
+    #{rem(strip-unit($min-font-size))} + #{strip-unit(
+        $max-font-size - $min-font-size
+      )} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)})
+  );
+
+  // La fonction CSS clamp() permet de ramener une valeur entre deux bornes inférieure et supérieure.
+  // Cette fonction utilise trois paramètres : une valeur minimale, la valeur à tester et une valeur maximale.
+  font-size: clamp(
+    rem(strip-unit($min-font-size)),
+    $scaler,
+    rem(strip-unit($max-font-size))
+  );
+
+}
