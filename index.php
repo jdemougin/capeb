@@ -3,13 +3,13 @@
 <?php 
 echo ('<h1>PROJET CAPEB</h1>')
 ?>
+<div>
+    <?php 
+        echo ('<h2>PROJET CAPEB</h2>');
+        echo ('<h3>PROJET CAPEB</h3>');
+        echo ('<h4>PROJET CAPEB</h4>');
 
-<?php 
-echo ('<h2>PROJET CAPEB</h2>');
-echo ('<h3>PROJET CAPEB</h3>');
-echo ('<h4>PROJET CAPEB</h4>');
-
-echo the_content();
-?>
-
+        echo the_content();
+    ?>
+</div>
 <?php get_footer();?>
