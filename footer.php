@@ -1,4 +1,5 @@
-<footer>
-    END
-</footer>
+    <footer>
+        END
+    </footer>
+</body>
 </html>
